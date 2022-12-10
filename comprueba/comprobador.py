@@ -1,5 +1,7 @@
 def comprodarorHora(hora,minuto):
-    if hora > 22:
+    if hora < 10:
+        print("Todavia puedes descansar")
+    elif hora >= 19:
         print('Hora de ir a casa')
     else:
         h1 = 22 - (hora+1)
